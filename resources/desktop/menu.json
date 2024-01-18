@@ -48,6 +48,12 @@
       "iconCls": "x-fa fa-table",
       "xtype": "border_layout",
       "leaf": true
+    },
+    {
+      "text": "Card Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "card_layout",
+      "leaf": true
     }
   ]
 }
