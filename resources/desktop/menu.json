@@ -42,6 +42,12 @@
       "iconCls": "x-fa fa-table",
       "xtype": "accordion_layout",
       "leaf": true
+    },
+    {
+      "text": "Border Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "border_layout",
+      "leaf": true
     }
   ]
 }
