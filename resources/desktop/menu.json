@@ -36,6 +36,12 @@
       "iconCls": "x-fa fa-table",
       "xtype": "center_layout",
       "leaf": true
+    },
+    {
+      "text": "Accordion Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "accordion_layout",
+      "leaf": true
     }
   ]
 }
