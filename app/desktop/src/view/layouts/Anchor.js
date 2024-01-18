@@ -13,7 +13,7 @@ Ext.define('MyClassicApp.view.layouts.Anchor', {
     },
 
     items: [
-        {            
+        {         
             title: 'Panel 1 - 98% width 58% height',
             width: '98%',
             height: '58%'
