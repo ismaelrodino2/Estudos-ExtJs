@@ -66,6 +66,12 @@
       "iconCls": "x-fa fa-table",
       "xtype": "hbox_layout",
       "leaf": true
+    },
+    {
+      "text": "VBox Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "vbox_layout",
+      "leaf": true
     }
   ]
 }
