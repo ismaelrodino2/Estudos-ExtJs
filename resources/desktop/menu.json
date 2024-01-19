@@ -54,6 +54,18 @@
       "iconCls": "x-fa fa-table",
       "xtype": "card_layout",
       "leaf": true
+    },
+    {
+      "text": "Form Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "form_layout",
+      "leaf": true
+    },
+    {
+      "text": "HBox Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "hbox_layout",
+      "leaf": true
     }
   ]
 }
