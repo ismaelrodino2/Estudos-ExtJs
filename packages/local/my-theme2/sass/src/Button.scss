@@ -1,6 +1,27 @@
+// @include button-ui(
+//   'button-bigger',
+//   // $padding: 10px, //erro ao colocar 10 13 ou '10 13' ou com px
+//   $border-radius: 8,
+// );
+
 @include button-ui(
-    $ui: 'danger',
-    $background-color: red,
-    $hovered-background-color: green,
-    $hovered-color: purple
-)
+  'button-bigger-primary',
+  $background-color: #FFFFFF,
+  $border-color: #E6E6E6,
+  $color: #5A5D63,
+  $hover-background-color: #E6E6E6,
+  $hover-color: #FFFFFF
+);
+@include button-ui(
+  'button-bigger-secondary',
+  $background-color: #009DA4,
+  $border-color: transparent,
+  $color: #FFFFFF,
+  $hover-background-color: #7AC8CC,
+  $hover-color: #FFFFFF
+);
+
+
+
+
+
