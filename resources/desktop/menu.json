@@ -56,6 +56,12 @@
       "leaf": true
     },
     {
+      "text": "Buttons Layout",
+      "iconCls": "x-fa fa-table",
+      "xtype": "buttons_layout",
+      "leaf": true
+    },
+    {
       "text": "Form Layout",
       "iconCls": "x-fa fa-table",
       "xtype": "form_layout",

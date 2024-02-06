@@ -12,7 +12,7 @@
   "builds": {
     "desktop": {
       "toolkit": "modern",
-      "theme": "theme-material",
+      "theme": "my-theme2",
       "sass": {
         "generated": {
           "var": "${build.id}/sass/save.scss",

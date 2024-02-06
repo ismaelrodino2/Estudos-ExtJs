@@ -58,10 +58,41 @@ Ext.define("MyClassicApp.view.layouts.Card", {
       {
         xtype: "button",
         text: "Próximo",
+        cls: "danger", // Adicione a classe de estilo personalizado aqui
         handler: function (button) {
           var layout = button.up("card_layout").getLayout();
           layout.next();
         },
+      },
+      {
+        xtype: "button",
+        text: "Próximo",
+        handler: function (button) {
+          var layout = button.up("card_layout").getLayout();
+          layout.next();
+        },
+      },
+
+      {
+        xtype: "button",
+        text: "Próximo round",
+        ui: "round", // Nome da sua nova UI
+      },
+
+      {
+        xtype: "button",
+        ui: "action",
+        text: "Próximo123",
+        handler: function (button) {
+          var layout = button.up("card_layout").getLayout();
+          layout.next();
+        },
+      },
+
+      {
+        xtype: "button",
+        text: "Próximo321",
+        ui: "danger", // Nome da sua UI personalizada
       },
     ],
   },

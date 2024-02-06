@@ -1,0 +1,6 @@
+@include button-ui(
+    $ui: 'danger',
+    $background-color: red,
+    $hovered-background-color: green,
+    $hovered-color: purple
+)
