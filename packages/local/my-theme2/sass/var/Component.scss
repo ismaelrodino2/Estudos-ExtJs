@@ -1,3 +1,8 @@
-$base-color: rgb(68, 202, 219)
+$base-color: rgb(68, 202, 219);
 
 //https://docs.sencha.com/extjs/7.7.0/guides/core_concepts/theming.html#core_concepts-_-theming_-_generate_the_theme_package
+
+.border-gray{
+    border: solid 1px #C1C2C5; //border doesn't work in @include.
+}
+  

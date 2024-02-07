@@ -76,13 +76,15 @@ Ext.define("MyClassicApp.view.layouts.Card", {
       {
         xtype: "button",
         text: "Próximo round",
-        ui: "round", // Nome da sua nova UI
+        ui: "button-smaller button-bigger-secondary", // Nome da sua nova UI
       },
 
       {
         xtype: "button",
-        ui: "button-bigger button-bigger-primary",
         text: "Próximo123",
+        cls: 'border-gray',
+        ui: "button-bigger button-bigger-primary ", // Nome da sua UI personalizada
+
         handler: function (button) {
           var layout = button.up("card_layout").getLayout();
           layout.next();
@@ -92,7 +94,7 @@ Ext.define("MyClassicApp.view.layouts.Card", {
       {
         xtype: "button",
         text: "Próximo321",
-        ui: "button-bigger button-bigger-secondary", // Nome da sua UI personalizada
+        ui: "button-bigger button-bigger-secondary ", // Nome da sua UI personalizada
       },
     ],
   },
