@@ -82,7 +82,7 @@ Ext.define("MyClassicApp.view.layouts.Card", {
       {
         xtype: "button",
         text: "Próximo123",
-        cls: 'border-gray',
+        cls: "border-gray",
         ui: "button-bigger button-bigger-primary ", // Nome da sua UI personalizada
 
         handler: function (button) {
@@ -95,6 +95,15 @@ Ext.define("MyClassicApp.view.layouts.Card", {
         xtype: "button",
         text: "Próximo321",
         ui: "button-bigger button-bigger-secondary ", // Nome da sua UI personalizada
+      },
+
+      {
+        xtype: "checkboxfield",
+        name: "tomato",
+        label: "Tomato",
+        value: "tomato",
+        checked: true,
+        labelAlign: 'bottom'
       },
     ],
   },

@@ -1,8 +1,19 @@
-$base-color: rgb(68, 202, 219);
+$base-color: #009DA4;
+$color:#5A5D63;
 
-//https://docs.sencha.com/extjs/7.7.0/guides/core_concepts/theming.html#core_concepts-_-theming_-_generate_the_theme_package
 
+//checkbox
+
+$checkboxfield-checkbox-size : 16px;
+$checkboxfield-checkbox-margin : 16px;
+$checkboxfield-checked-checkbox-color: #009DA4;
+$field-label-width: '100%';
+$checkboxfield-box-label-font-size: 14px;
+
+
+
+//general classes
 .border-gray{
-    border: solid 1px #C1C2C5; //border doesn't work in @include.
+    border: solid 1px #C1C2C5; //border doesn't work in @include., so you need to add this class in cls
 }
   
